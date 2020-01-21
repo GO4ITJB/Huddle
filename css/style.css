@@ -1,1 +1,268 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 1em;
+  z-index: 1;
+}
+
+.header__img {
+  width: 45%;
+}
+
+.header__button {
+  border: none;
+  border-radius: 50px;
+  padding: 1em 2em;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 5px #b8b8b8;
+          box-shadow: 2px 2px 5px #b8b8b8;
+  font-weight: 700;
+}
+
+.container {
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.hero {
+  background: url(../images/bg-hero-mobile.svg);
+  background-size: 100% 91%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -111;
+  height: 100%;
+  background-color: #ebfbff;
+  padding: 2em;
+}
+
+.hero h1 {
+  margin-top: 4em;
+  font-size: 1.5em;
+}
+
+.hero p {
+  padding: 2em 0;
+  font-size: 1em;
+}
+
+.hero__img {
+  width: 100%;
+  margin-top: 3em;
+}
+
+.pink-button {
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 50px;
+  padding: 1em 4em;
+  color: #fff;
+  font-size: .9em;
+  -webkit-box-shadow: 2px 2px 5px #b8b8b8;
+          box-shadow: 2px 2px 5px #b8b8b8;
+}
+
+.cards {
+  margin-top: 44em;
+}
+
+.cards h4 {
+  padding: 2em 0 1em;
+  font-size: 1.3em;
+}
+
+.cards p {
+  color: #808d99;
+}
+
+.cards__card-img {
+  width: 100%;
+}
+
+.card {
+  background-color: #fff;
+  width: 85%;
+  height: auto;
+  margin: 2em auto 0;
+  padding: 1.5em;
+  text-align: left;
+  -webkit-box-shadow: 0 0 20px -10px grey;
+  box-shadow: 0 0 20px -10px grey;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 8em;
+  background-color: #00252e;
+  padding: 1em;
+  color: #fff;
+}
+
+.footer__card {
+  position: absolute;
+  left: 7.5%;
+}
+
+.footer__card h4 {
+  padding-bottom: 1em;
+  font-size: .9em;
+}
+
+.footer__btn {
+  font-size: .7em;
+}
+
+.footer__img-logo {
+  margin-top: 6em;
+  padding-bottom: 1.5em;
+}
+
+.footer__about {
+  margin-top: 2em;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  padding: .5em 0;
+  font-size: 1.3em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__contact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 0;
+}
+
+.footer__contact div img {
+  margin-right: 5%;
+}
+
+.footer__contact--location img {
+  margin-top: 7px;
+  width: 30px;
+  height: 30px;
+}
+
+.footer__contact--location p {
+  margin-left: 9px;
+}
+
+.footer__contact--phone-img {
+  width: 30px;
+  height: 30px;
+  margin-top: -10px;
+}
+
+.footer__contact--email-img {
+  width: 30px;
+  height: 25px;
+  margin-top: -4px;
+}
+
+.footer__social {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.footer__social img {
+  width: 2em;
+  margin: 0 .2em;
+}
+
+.footer__rights {
+  text-align: center;
+  padding: 1em 0 4em;
+  font-size: .8em;
+}
+
+.footer .attribution {
+  text-align: center;
+  font-size: .8em;
+}
+
+@media (min-width: 1199px) {
+  .header {
+    padding: 2em;
+  }
+  .header__img {
+    width: 10%;
+  }
+  .header__button {
+    width: 10%;
+    font-size: .8em;
+  }
+  body {
+    font-size: 22px;
+  }
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+  }
+  .hero__txt-box {
+    text-align: left;
+    padding-right: 4em;
+    margin-top: -5em;
+  }
+  .hero__txt-box h1 {
+    font-size: 2.2em;
+  }
+  .hero__img {
+    width: 80%;
+    height: 80%;
+  }
+  .cards__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .cards img {
+    width: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
