@@ -19,11 +19,11 @@ h1, h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   padding: 2em 1em;
   z-index: 1;
 }
@@ -86,7 +86,7 @@ h1, h4 {
 }
 
 .cards {
-  margin-top: 44em;
+  margin-top: 94vh;
 }
 
 .cards h4 {
@@ -110,7 +110,7 @@ h1, h4 {
   padding: 1.5em;
   text-align: left;
   -webkit-box-shadow: 0 0 20px -10px grey;
-  box-shadow: 0 0 20px -10px grey;
+          box-shadow: 0 0 20px -10px grey;
   border-radius: 10px;
   text-align: center;
 }
@@ -233,12 +233,13 @@ h1, h4 {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+        flex-direction: row;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
     height: 90vh;
+    width: 100vw;
   }
   .hero__txt-box {
     text-align: left;
@@ -258,8 +259,8 @@ h1, h4 {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
   }
   .cards img {
     width: 40%;
@@ -273,11 +274,11 @@ h1, h4 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .card:nth-child(2) {
     display: -webkit-box;
@@ -285,8 +286,8 @@ h1, h4 {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+        flex-direction: row;
   }
   .footer__card {
     font-size: 30px;
@@ -310,8 +311,8 @@ h1, h4 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     padding: 0 4em;
   }
   .footer__contact {
