@@ -262,7 +262,67 @@ h1, h4 {
             flex-direction: row-reverse;
   }
   .cards img {
+    width: 40%;
+  }
+  .cards__txt-box {
+    text-align: left;
+    padding: 6em;
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .card:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer__card {
+    font-size: 30px;
+    width: 50%;
+    left: 25.5%;
+  }
+  .footer {
+    padding-top: 8em;
+  }
+  .footer__img-logo {
+    margin-left: 4em;
+  }
+  .footer__about {
+    margin-top: unset;
+  }
+  .footer__social {
+    padding: 1em;
+  }
+  .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 4em;
+  }
+  .footer__contact {
     width: 20%;
+  }
+  .footer__rights {
+    padding: 1em;
+    text-align: right;
+  }
+  .attribution {
+    margin-top: 3em;
   }
 }
 /*# sourceMappingURL=style.css.map */

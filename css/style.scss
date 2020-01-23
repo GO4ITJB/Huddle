@@ -259,6 +259,7 @@ h1, h4{
         }
     }
 
+
     .cards{
 
         &__card{
@@ -267,10 +268,64 @@ h1, h4{
         }
         
         img{
-            width: 20%;
+            width: 40%;
+        }
+
+        &__txt-box{
+            text-align: left;
+            padding: 6em;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
 
+    .card:nth-child(2){
+        display: flex;
+        flex-direction: row;
+    }
 
+    .footer__card{
+            font-size: 30px;
+            width: 50%;
+            left: 25.5%;
+        }
+
+    .footer{
+        padding-top: 8em;
+
+        &__img-logo{
+            margin-left: 4em;
+        }
+
+        &__about{
+            margin-top: unset;
+        }
+
+        &__social{
+            padding: 1em;
+        }
+        
+        &__content{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 4em;
+        }
+
+        &__contact{
+            width: 20%;
+        }
+
+        &__rights{
+            padding: 1em;
+            text-align: right;
+        }
+
+    }
+
+    .attribution{
+        margin-top: 3em;
+    }
 
 }
